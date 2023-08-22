@@ -24,7 +24,7 @@ public class HomePage_AssignLeave extends SetUp {
 		 Thread.sleep(1000);
 		driver.findElement(By.xpath(prop.getProperty("EmployeeNameField_Xpath"))).sendKeys("Paul");
 		Thread.sleep(3000);
-		driver.findElement(By.xpath(prop.getProperty("EmployeeNameField_Xpath"))).sendKeys(Keys.ARROW_DOWN);
+		driver.findElement(By.xpath(prop.getProperty("EmployeeNameField_Xpath"))).sendKeys(Keys.ARROW_UP); // changing from down to up
 		driver.findElement(By.xpath(prop.getProperty("EmployeeNameField_Xpath"))).sendKeys(Keys.ENTER);
 		Thread.sleep(3000);
 		//WebElement FirstSuggestion=driver.findElement(By.xpath(prop.getProperty("Suggestion_Xpath")));
